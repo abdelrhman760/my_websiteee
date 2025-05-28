@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+    
+    
+  }
+  
+  .card {
+    background-color: rgba(97, 0, 177, 0.336);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(113, 6, 185, 0.5);
+    max-width: 500px;
+    margin: auto;
+    color: #ce64ff;
+  }
+  
+  img.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #ffffff;
+  }
+  
+  h1, p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .facebook { background-color: #00000067; }
+  .instagram { background-color: #00000057; }
+  .whatsapp { background-color: #0000005e; }
+  .tiktok {background-color: #0000006b;}
+  .snapchat {background-color: #00000069;}
+  
+  .toggle-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #00000048;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .youtube-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: a;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.youtube-bg iframe {
+  margin: 100;
+  padding: 100;
+  overflow: hidden;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  min-width: 120%;
+  min-height: 120%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  object-fit: cover;
+  transform: scale(3.2); 
+  transform-origin: center;
+}
+
